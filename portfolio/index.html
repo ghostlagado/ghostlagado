@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guilherme Breve — FullStack Developer &amp; Security Tinkerer</title>
+<meta name="description" content="Portfólio de Guilherme Breve (foxtec198): desenvolvedor FullStack, fundador da Tecnobreve Solutions. Projetos de automação, segurança, Python e web.">
+<meta property="og:title" content="Guilherme Breve — FullStack Developer">
+<meta property="og:description" content="Automação, segurança e software. Fundador da Tecnobreve Solutions.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/64221923?v=4">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23060a08'/><text x='6' y='22' font-family='monospace' font-size='16' fill='%2339ff88'>&gt;_</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;0,800;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#projetos">Ir para os projetos</a>
+
+<canvas id="matrix" aria-hidden="true"></canvas>
+
+<header class="site-header">
+  <div class="terminal-bar" aria-hidden="true">
+    <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+    <span class="bar-title">~/guibs_portfolio</span>
+  </div>
+  <nav class="nav" aria-label="Navegação principal">
+    <a class="brand" href="#top"><span class="brand-prompt">guibs@guilherme_breve</span><span class="brand-sep">:~$</span> <span class="brand-cmd">./portfolio</span><span class="caret"></span></a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menu">[ menu ]</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#sobre">01_sobre</a></li>
+      <li><a href="#projetos">02_projetos</a></li>
+      <li><a href="#stack">03_stack</a></li>
+      <li><a href="#contato">04_contato</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero" aria-label="Apresentação">
+    <div class="hero-inner reveal">
+      <div class="hero-id">
+        <img class="avatar" src="https://avatars.githubusercontent.com/u/64221923?v=4" alt="Foto de perfil de Guilherme Breve no GitHub" width="112" height="112">
+        <p class="hero-kicker">// Londrina, PR — Brasil</p>
+        <h1 class="hero-name">Guilherme <span class="accent">Breve</span></h1>
+        <p class="hero-role">FullStack Developer <span class="divider">·</span> Founder @ <a href="https://tecnobreve.onrender.com" target="_blank" rel="noopener">Tecnobreve Solutions</a></p>
+      </div>
+      <pre class="terminal-window" aria-label="Terminal de exemplo"><code><span class="t-line"><span class="t-prompt">$</span> whoami</span>
+<span class="t-line t-out">guilherme — dev desde os 12, profissional há 5+ anos</span>
+<span class="t-line"><span class="t-prompt">$</span> cat ./stack --latest</span>
+<span class="t-line t-out"><span class="t-key">backend:</span> Python · Node.js · C++ · JS</span>
+<span class="t-line t-out"><span class="t-key">frontend:</span> React · HTML · CSS · Chart.js</span>
+<span class="t-line"><span class="t-prompt">$</span> <span id="typed" aria-live="polite"></span><span class="caret">▊</span></span></code></pre>
+      <ul class="hero-stats" aria-label="Números">
+        <li><strong data-count="5">0</strong><span>anos de experiência</span></li>
+        <li><strong data-count="13">0</strong><span>repositórios públicos</span></li>
+        <li><strong data-count="6">0</strong><span>linguagens em produção</span></li>
+        <li><strong>24/7</strong><span>automações rodando</span></li>
+      </ul>
+    </div>
+    <div class="scanlines" aria-hidden="true"></div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="section" aria-labelledby="sobre-title">
+    <h2 class="section-title" id="sobre-title"><span class="sec-num">01.</span> <span class="sec-cmd">cat sobre.md</span></h2>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>Meu nome é <strong>Guilherme Breve</strong>. Comecei a mexer com tecnologia aos 12 anos — hoje sou desenvolvedor FullStack e fundador da <a href="https://tecnobreve.onrender.com" target="_blank" rel="noopener">Tecnobreve Solutions</a>, onde entregamos soluções de TI completas: de manutenção de hardware ao desenvolvimento e venda de software.</p>
+        <p>Meu trabalho vive na interseção entre <em>automação</em> e <em>segurança</em>. Construo bots, RPA e ferramentas internas que substituem horas de trabalho manual por scripts confiáveis — e estudo ofensivamente (keyloggers, testes em endpoints de login, redes via VPN) para entender como sistemas quebram e como blindá-los.</p>
+        <p class="about-en">// I've been a developer for 5+ years, working FullStack at my own company. My work sits where automation meets security.</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="terminal-head"><span>perfil.json</span></div>
+        <pre><code>{
+  <span class="t-key">"nome"</span>: "Guilherme Breve",
+  <span class="t-key">"github"</span>: "<a class="t-link" href="https://github.com/foxtec198" target="_blank" rel="noopener">foxtec198</a>",
+  <span class="t-key">"empresa"</span>: "Tecnobreve Solutions",
+  <span class="t-key">"projeto"</span>: "Hubbix.com.br",
+  <span class="t-key">"base"</span>: "Londrina, PR",
+  <span class="t-key">"desde"</span>: "2020-04-23",
+  <span class="t-key">"foco"</span>: ["RPA", "Segurança", "FullStack"]
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="section" aria-labelledby="projetos-title">
+    <h2 class="section-title" id="projetos-title"><span class="sec-num">02.</span> <span class="sec-cmd">ls -la ~/projetos</span></h2>
+    <div class="proj-grid">
+      <article class="proj reveal featured">
+        <div class="proj-top"><h3>TBGScript</h3><span class="badge badge-red">security</span></div>
+        <p>Script educacional para testes de resistência em endpoints de API de login — wordlist, throttling e relatórios de falhas.</p>
+        <ul class="tags"><li>JavaScript</li><li>Python</li><li>Brute-force</li><li>Cybersecurity</li></ul>
+        <a class="proj-link" href="https://github.com/foxtec198/TBGScript" target="_blank" rel="noopener">github.com/foxtec198/TBGScript <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="proj reveal featured">
+        <div class="proj-top"><h3>Keylogger</h3><span class="badge badge-red">security</span></div>
+        <p>Captura e interpretação de teclas para análise ofensiva, com saída estruturada em JSONL e painel HTML de visualização.</p>
+        <ul class="tags"><li>Python</li><li>JSONL</li><li>Red-teaming</li></ul>
+        <a class="proj-link" href="https://github.com/foxtec198/Keylogger" target="_blank" rel="noopener">github.com/foxtec198/Keylogger <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="proj reveal featured">
+        <div class="proj-top"><h3>AuthWA</h3><span class="badge badge-green">rpa</span></div>
+        <p>Pacote Python de automação de WhatsApp: mensagens recorrentes, sessões persistentes e integração com grupos. Publicado no Read the Docs.</p>
+        <ul class="tags"><li>Python3</li><li>RPA</li><li>WhatsApp</li><li>Docs</li></ul>
+        <a class="proj-link" href="https://github.com/foxtec198/AuthWA" target="_blank" rel="noopener">github.com/foxtec198/AuthWA <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="proj reveal">
+        <div class="proj-top"><h3>VistaView</h3><span class="badge badge-cyan">data</span></div>
+        <p>Dashboard de visualização do GPS Vista: métricas, gaps e visitas, com API própria e camada ORM em Python.</p>
+        <ul class="tags"><li>HTML</li><li>Python</li><li>API</li><li>ORM</li></ul>
+        <a class="proj-link" href="https://github.com/foxtec198/VistaView" target="_blank" rel="noopener">github.com/foxtec198/VistaView <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="proj reveal">
+        <div class="proj-top"><h3>CNS + CNS_Bot</h3><span class="badge badge-green">desktop</span></div>
+        <p>Consulta a bancos SQL Server com interface PyQt5, integrada a um bot de tarefas no Telegram operando sobre VPN.</p>
+        <ul class="tags"><li>Python</li><li>Qt5</li><li>SQL Server</li><li>Telegram</li></ul>
+        <a class="proj-link" href="https://github.com/foxtec198/CNS" target="_blank" rel="noopener">github.com/foxtec198/CNS <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="proj reveal">
+        <div class="proj-top"><h3>PDV_V2</h3><span class="badge badge-green">rpa</span></div>
+        <p>Automação de planilhas hora-a-hora para operação de shopping: coleta, conciliação e exportação com acesso interno controlado.</p>
+        <ul class="tags"><li>Python3</li><li>Excel</li><li>RPA</li></ul>
+        <a class="proj-link" href="https://github.com/foxtec198/PDV_V2" target="_blank" rel="noopener">github.com/foxtec198/PDV_V2 <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="proj reveal">
+        <div class="proj-top"><h3>Desktop_GQR</h3><span class="badge badge-green">desktop</span></div>
+        <p>Gerador automático de QR Codes para implantação de contratos, com banco SQL Server e distribuição via instalador.</p>
+        <ul class="tags"><li>PyQt5</li><li>Python3</li><li>SQL Server</li><li>VPN</li></ul>
+        <a class="proj-link" href="https://github.com/foxtec198/Desktop_GQR" target="_blank" rel="noopener">github.com/foxtec198/Desktop_GQR <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="proj reveal">
+        <div class="proj-top"><h3>github-stats-extended</h3><span class="badge badge-cyan">web</span></div>
+        <p>Geração dinâmica de estatísticas GitHub para READMEs, com frontend de configuração publicado na Vercel.</p>
+        <ul class="tags"><li>JavaScript</li><li>API</li><li>Vercel</li></ul>
+        <a class="proj-link" href="https://github.com/foxtec198/github-stats-extended" target="_blank" rel="noopener">github.com/foxtec198/github-stats-extended <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="proj reveal">
+        <div class="proj-top"><h3>HubbixSys</h3><span class="badge badge-cyan">web</span></div>
+        <p>Site institucional da Hubbix: quem somos e o que fazemos, servido em hubbix.com.br.</p>
+        <ul class="tags"><li>Web</li><li>Hubbix</li></ul>
+        <a class="proj-link" href="https://github.com/foxtec198/HubbixSys" target="_blank" rel="noopener">github.com/foxtec198/HubbixSys <span aria-hidden="true">↗</span></a>
+      </article>
+    </div>
+    <p class="proj-more reveal"><a href="https://github.com/foxtec198?tab=repositories" target="_blank" rel="noopener">[ ver todos os 13 repositórios ↗ ]</a></p>
+  </section>
+
+  <!-- STACK -->
+  <section id="stack" class="section" aria-labelledby="stack-title">
+    <h2 class="section-title" id="stack-title"><span class="sec-num">03.</span> <span class="sec-cmd">neofetch --skills</span></h2>
+    <div class="stack-grid">
+      <div class="stack-card reveal">
+        <h3><span class="stack-icon" aria-hidden="true">›</span> Back-End</h3>
+        <ul class="chips"><li>Python</li><li>Node.js</li><li>JavaScript</li><li>C++</li><li>JWT</li><li>SQLAlchemy</li></ul>
+      </div>
+      <div class="stack-card reveal">
+        <h3><span class="stack-icon" aria-hidden="true">›</span> Front-End</h3>
+        <ul class="chips"><li>React</li><li>HTML5</li><li>CSS3</li><li>Bootstrap</li><li>Chart.js</li></ul>
+      </div>
+      <div class="stack-card reveal">
+        <h3><span class="stack-icon" aria-hidden="true">›</span> Bancos de Dados</h3>
+        <ul class="chips"><li>SQL Server</li><li>PostgreSQL</li><li>MySQL</li><li>MongoDB</li><li>SQLite</li></ul>
+      </div>
+      <div class="stack-card reveal">
+        <h3><span class="stack-icon" aria-hidden="true">›</span> Segurança &amp; Automação</h3>
+        <ul class="chips"><li>RPA</li><li>Pentest educacional</li><li>Telegram Bots</li><li>WhatsApp API</li><li>VPN / tunnels</li></ul>
+      </div>
+      <div class="stack-card reveal">
+        <h3><span class="stack-icon" aria-hidden="true">›</span> Sistemas &amp; Infra</h3>
+        <ul class="chips"><li>Kali Linux</li><li>Arch</li><li>Debian</li><li>Linux Mint</li><li>Windows</li><li>Nginx</li><li>Gunicorn</li></ul>
+      </div>
+      <div class="stack-card reveal">
+        <h3><span class="stack-icon" aria-hidden="true">›</span> IA &amp; Design</h3>
+        <ul class="chips"><li>GPT</li><li>Claude</li><li>Ollama</li><li>Figma</li><li>Blender</li><li>Inkscape</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="section" aria-labelledby="contato-title">
+    <h2 class="section-title" id="contato-title"><span class="sec-num">04.</span> <span class="sec-cmd">ssh guilherme@contato</span></h2>
+    <div class="contact reveal">
+      <p class="contact-lead">Aberto a projetos de desenvolvimento, automação e consultoria de segurança. Resposta em <span class="accent">&lt; 24h</span>.</p>
+      <ul class="contact-links">
+        <li><a href="https://wa.me/5543996617904?text=Olá%20vim%20pelo%20portifólio%20e%20queria%20saber%20mais." target="_blank" rel="noopener"><span class="c-label">whatsapp.com/guilherme.breve</span><span class="c-meta">/ Whatsapp</span></a></li>
+        <li><a href="https://github.com/foxtec198" target="_blank" rel="noopener"><span class="c-label">github.com/foxtec198</span><span class="c-meta">/ perfil &amp; repositórios</span></a></li>
+        <li><a href="https://tecnobreve.onrender.com" target="_blank" rel="noopener"><span class="c-label">tecnobreve.onrender.com</span><span class="c-meta">/ empresa</span></a></li>
+        <li><a href="https://hubbix.com.br" target="_blank" rel="noopener"><span class="c-label">hubbix.com.br</span><span class="c-meta">/ projeto</span></a></li>
+        <li><button class="copy-btn" id="copyEmail" data-email="foxtec198@users.noreply.github.com"><span class="c-label">copiar e-mail <span aria-hidden="true">⧉</span></span><span class="c-meta" id="emailState">/ via GitHub noreply</span></button></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p><span class="accent">$</span> echo "© 2026 Guilherme Breve — Tecnobreve Solutions"</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
