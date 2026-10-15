@@ -30,4 +30,5 @@ But since this is about me, here's the company's website! [Tecnobreve](https://t
 ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white)![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 
 ## Minhas Estatísticas - My Stats
-![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=foxtec198&langs_count=2&theme=dark)![](https://github-readme-stats-extended.vercel.app/api?username=foxtec198&theme=dark&show_icons=true&hide=stars,issues,contribs)
+![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=ghostlagado&langs_count=2&theme=dark)![](https://github-readme-stats-extended.vercel.app/api?username=ghostlagado&theme=dark&show_icons=true&hide=stars,issues,contribs)
+
