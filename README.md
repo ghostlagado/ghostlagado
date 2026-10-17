@@ -30,5 +30,7 @@ But since this is about me, here's the company's website! [Tecnobreve](https://t
 ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white)![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 
 ## Minhas Estatísticas - My Stats
-![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=ghostlagado&langs_count=2&theme=dark)![](https://github-readme-stats-extended.vercel.app/api?username=ghostlagado&theme=dark&show_icons=true&hide=stars,issues,contribs)
+<!-- ![](https://github-readme-stats-extended.vercel.app/api?username=ghostlagado&theme=dark&show_icons=true&hide=stars,issues,contribs) -->
+![stats](https://github-stats-extended.vercel.app/api/?username=ghostlagado&show_icons=true&theme=dark&rank_icon=github&include_all_commits=true&custom_title=Anurag%27s+Stats&disable_animations=true&number_format=long&show=prs_merged_percentage,prs_reviewed)![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=ghostlagado&theme=dark&langs_count=4)
+
 
