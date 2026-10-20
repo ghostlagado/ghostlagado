@@ -85,11 +85,11 @@ Gosto de transformar problemas operacionais em soluções de software confiávei
 
 A few projects and areas of work from my GitHub:
 
-- **[MedPulse](https://github.com/ghostlagado/MedPulse)** — hospital-oriented dashboard project.
+- **[MedPulse](https://github.com/ghostlagado/)** — hospital-oriented dashboard project.
 - **[ARPA](https://github.com/ghostlagado/ARPA)** — automation project.
 - **[CNS](https://github.com/ghostlagado/CNS)** — desktop/business application.
 - **[CNS_Bot](https://github.com/ghostlagado/CNS_Bot)** — bot and workflow integration.
-- **[PDV_V2](https://github.com/ghostlagado/PDV_V2)** — point-of-sale application.
+- **[Kepler](https://github.com/ghostlagado/Kepler)** — point-of-sale application.
 - **[TBGScript](https://github.com/ghostlagado/TBGScript)** — scripting project.
 
 Explore the repositories for implementation details, documentation, and current project status.
